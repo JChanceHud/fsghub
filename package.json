@@ -2,7 +2,6 @@
   "name": "fsghub",
   "version": "0.0.1",
   "description": "A utility for automatically opening github projects",
-  "main": "index.js",
   "bin": {
     "fsghub": "cmd.js",
     "ghub": "cmd.js"
@@ -26,6 +25,6 @@
   },
   "homepage": "https://github.com/JChanceHud/fsghub#readme",
   "dependencies": {
-    "opn": "^5.2.0"
+    "opn": "5.2.0"
   }
 }
