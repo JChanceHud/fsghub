@@ -1,6 +1,6 @@
 {
   "name": "fsghub",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A utility for automatically opening github projects",
   "main": "cmd.js",
   "bin": {
