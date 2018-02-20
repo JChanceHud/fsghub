@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "A utility for automatically opening github projects",
   "main": "index.js",
+  "bin": {
+    "fsghub": "cmd.js",
+    "ghub": "cmd.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
