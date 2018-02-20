@@ -5,6 +5,8 @@ const os = require('os');
 const readline = require('readline');
 const path = require('path');
 
+const opn = require('opn');
+
 const configPath = expandTilde(process.env.FSGHUB_CONFIG_PATH || '~/.fsghubconfig');
 const pathArg = process.argv[2] || '';
 
@@ -18,7 +20,7 @@ loadConfig(configPath)
       const components = pathToOpen.replace(service.path, '').split('/');
       while (!components[0]) components.shift();
       const url = `${service.url}/${components[0]}/${components[1] || ''}`;
-      console.log(url);
+      opn(url);
       process.exit(0);
     }
     console.log('Unable to find suitable url to open.');
