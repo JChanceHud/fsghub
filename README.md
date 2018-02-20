@@ -13,11 +13,12 @@ For example, my directory structure is as so:
 ~/github
 ~/github/jchancehud
 ~/github/jchancehud/fsghub
-~/github/blocklease/web #an organization
+~/github/blocklease
+~/github/blocklease/web
 ```
 
 Running `fsghub` from any of those project directories opens the github website by replacing `~/github` with `https://github.com`.
 
 ## Usage
 
-`fsghub [path]` - Operates on current working directory with `path` appended and the entire string normalized
+`fsghub [path]` - Operates on current working directory with `path` appended and the entire string normalized.
