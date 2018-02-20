@@ -1,0 +1,24 @@
+{
+  "name": "fsghub",
+  "version": "0.0.1",
+  "description": "A utility for automatically opening github projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JChanceHud/fsghub.git"
+  },
+  "keywords": [
+    "github",
+    "filesystem",
+    "organization"
+  ],
+  "author": "Chance Hudson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JChanceHud/fsghub/issues"
+  },
+  "homepage": "https://github.com/JChanceHud/fsghub#readme"
+}
